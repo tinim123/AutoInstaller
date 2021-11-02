@@ -17,7 +17,7 @@ echo "-------------------------------------------"
 
 echo "
 1: Zabbix install v5.0.x
-2: Graylog install v4.0.x
+2: Graylog install v4.1.x
 3: Grafana install v8.2.x
 "
 read -p "Please Select App : " app

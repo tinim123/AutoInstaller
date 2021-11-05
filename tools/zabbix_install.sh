@@ -79,7 +79,7 @@ sudo zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p 
 echo conf dosyasi duzenleme
 sudo sed -i 's/^DBName=.*/DBName=zabbix/g' /etc/zabbix/zabbix_server.conf
 sudo sed -i 's/^DBUser=.*/DBUser=zabbix/g' /etc/zabbix/zabbix_server.conf
-sudo sed -i 's/^\# DBPassword=.*/DBPassword=$pass/g' /etc/zabbix/zabbix_server.conf
+sudo sed -i 's/^\# DBPassword=.*/DBPassword='$pass'/g' /etc/zabbix/zabbix_server.conf
 
 
 echo php duzenleme timezone

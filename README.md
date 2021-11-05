@@ -4,6 +4,9 @@ This tool auto installs on centos 7 for zabbix, grafana and graylog.
 
 Installation for Centos 7:
 ```
+sudo yum update
+sudo yum -y upgrade 
+sudo yum -y makecache
 git clone https://github.com/tinim123/ZGGAutoInstaller.git
 cd ZGGAutoInstaller
 chmod +x installer.sh

@@ -9,7 +9,7 @@ sudo yum -y upgrade
 sudo yum -y makecache
 git clone https://github.com/tinim123/ZGGAutoInstaller.git
 cd ZGGAutoInstaller
-chmod +x installer.sh
+chmod +x install.sh
 ./install.sh
 ```
 and have fun :)

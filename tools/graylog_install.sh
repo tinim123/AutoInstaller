@@ -82,7 +82,7 @@ echo "----------------------------------------------------------------"
 echo "Graylog Kurulum"
 echo "----------------------------------------------------------------"
 
-sudo rpm -Uvh https://packages.graylog2.org/repo/packages/graylog-4.1-repository_latest.rpm
+sudo rpm -Uvh https://packages.graylog2.org/repo/packages/graylog-4.2-repository_latest.rpm
 sudo yum install graylog-server
 
 echo "----------------------------------------------------------------"

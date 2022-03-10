@@ -15,7 +15,7 @@ chmod +x install.sh
 and have fun :)
 
 # Graylog
- -> Graylog v4.1.x
+ -> Graylog v4.2.x
 # Grafana 
  -> Grafana v8.2.x
 # Zabbix

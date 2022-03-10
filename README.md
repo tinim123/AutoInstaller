@@ -1,4 +1,4 @@
-## ZGGAutoInstaller
+## AutoInstaller
 
 This tool auto installs on centos 7 for zabbix, grafana and graylog.
 
@@ -20,3 +20,7 @@ and have fun :)
  -> Grafana v8.2.x
 # Zabbix
  -> Zabbix v5.0.x
+# FluentD
+ -> td-agent v4.x
+# Zabbix Agent
+ -> Zabbix Agent v4.x

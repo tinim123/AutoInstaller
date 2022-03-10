@@ -19,6 +19,8 @@ echo "
 1: Zabbix install v5.0.x
 2: Graylog install v4.2.x
 3: Grafana install v8.2.x
+4: FluentD install v4.x
+5: Zabbix Agent install v4.x
 "
 read -p "Please Select App : " app
 
@@ -28,6 +30,10 @@ case $app in
     2) chmod +x ./tools/graylog_install.sh && ./tools/graylog_install.sh
     ;;
     3) chmod +x ./tools/grafana_install.sh && ./tools/grafana_install.sh
+    ;;
+    4) chmod +x ./tools/td-agent_install.sh && ./tools/td-agent_install.sh
+    ;;
+    5) chmod +x ./tools/zabbix_agent_install.sh && ./tools/zabbix_agent_install.sh
     ;;
     *) echo "Error, Wrong Select!"
 esac

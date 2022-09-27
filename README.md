@@ -7,7 +7,7 @@ Installation for Centos 7:
 sudo yum update
 sudo yum -y upgrade 
 sudo yum -y makecache
-git clone https://github.com/tinim123/ZGGAutoInstaller.git
+git clone https://github.com/tinim123/AutoInstaller.git
 cd AutoInstaller
 chmod +x install.sh
 ./install.sh

@@ -7,6 +7,7 @@ Installation for Centos 7:
 sudo yum update
 sudo yum -y upgrade 
 sudo yum -y makecache
+sudo yum install git -y
 git clone https://github.com/tinim123/AutoInstaller.git
 cd AutoInstaller
 chmod +x install.sh
